@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria Willham</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    .galeria {
+      display: flex;
+      overflow-x: auto;
+      gap: 16px;
+      padding: 10px;
+      justify-content: center;
+    }
+    .galeria img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+    @media (max-width: 600px) {
+      .galeria img {
+        width: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Galeria de Imagens</h1>
+  <div class="galeria">
+    <img src="https://drive.google.com/uc?export=view&id=1uDGRSLfzDpn0-au9Rg6ewed-X4fRA13y" alt="Imagem 1">
+    <img src="https://drive.google.com/uc?export=view&id=1TueZBE_y525Mudq6R-LU4tSzr7UPDx3d" alt="Imagem 2">
+    <img src="https://drive.google.com/uc?export=view&id=1hDmDEh1mTH-EKiZJjALu9zCYf1gbYmT2" alt="Imagem 3">
+    <img src="https://drive.google.com/uc?export=view&id=1q1KZXwHC2Wwtnb-RHk9naoJT4Bq47T11" alt="Imagem 4">
+    <img src="https://drive.google.com/uc?export=view&id=1m9X7I3q62XyCqZ1FkhTcmrDCoTTcso2Q" alt="Imagem 5">
+    <img src="https://drive.google.com/uc?export=view&id=11GWYXAvAERtEwCt6gWlr6Y4xv7x3gI88" alt="Imagem 6">
+    <img src="https://drive.google.com/uc?export=view&id=146-hW2UP3WibLoC_VeHRr2huAqxhnl1w" alt="Imagem 7">
+    <img src="https://drive.google.com/uc?export=view&id=1jJ0JU21qU4tkC0GXsXzVIGOSfeSDi2RM" alt="Imagem 8">
+    <img src="https://drive.google.com/uc?export=view&id=1seHgXeUrUQAuKobKJj-AeK1udjW1KW05" alt="Imagem 9">
+    <img src="https://drive.google.com/uc?export=view&id=1hxKh2a-mEQHL3Ea-JhyoKVNusdEfcSV" alt="Imagem 10">
+  </div>
+</body>
+</html>
